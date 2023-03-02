@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Livvic', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,p{
+    text-align: center;
+    color: #E53170;
+}
+
+.all-cards{
+    background-color: salmon;
+    color: rgb(255, 255, 255);
+}
+
+.card-1{
+width: 400px;
+background-color: black;
+height: 100px;
+}
+
+.info{
+    padding: 15px;
+}
+
+.name{
+    font-weight: 800;
+}
+
+a{
+    color: #3990B6;
+    text-decoration: none;
+}
+
+img{
+    height: 100px;
+    float: left;
+}
