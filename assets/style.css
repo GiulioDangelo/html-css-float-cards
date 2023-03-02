@@ -23,8 +23,7 @@ padding: 40px;
 }
 
 .all-cards{
-    background-color: salmon;
-    color: rgb(255, 255, 255);
+color: white;
 }
 
 .card{
@@ -49,16 +48,14 @@ img{
 }
 
 .col{
-    width:calc(100% / 3);
+    width:calc(100% / 3 - 20px);
     float: left;
-    padding: 10px;
+    margin: 10px;
 }
 
 .info{
-    padding-left:109px ;
+    /* padding-left:109px ; 
     padding-top: 10px;
+    padding-right: 10px;*/
+    display: inline-block;
 }
-
-/* .name,.job,.mail{
-    padding: 1px;
-} */
