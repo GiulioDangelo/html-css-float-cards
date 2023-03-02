@@ -10,10 +10,16 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-h1,p{
+h1{
     text-align: center;
     color: #E53170;
-    margin: 30px;
+    padding: 50px;
+    font-weight: 800;
+}
+
+p{
+text-align: center;
+padding: 40px;
 }
 
 .all-cards{
@@ -21,7 +27,7 @@ h1,p{
     color: rgb(255, 255, 255);
 }
 
-.card-1{
+.card{
 width: 100%;
 height: 100px;
 background-color: black;
@@ -29,7 +35,7 @@ box-shadow: 0 0 10px 1px rgb(0, 0, 0);
 }
 
 .name{
-    font-weight: 800;
+    font-weight: 700;
 }
 
 a{
@@ -47,3 +53,12 @@ img{
     float: left;
     padding: 10px;
 }
+
+.info{
+    padding-left:109px ;
+    padding-top: 10px;
+}
+
+/* .name,.job,.mail{
+    padding: 1px;
+} */
