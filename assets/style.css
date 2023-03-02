@@ -13,6 +13,7 @@ body{
 h1,p{
     text-align: center;
     color: #E53170;
+    margin: 30px;
 }
 
 .all-cards{
@@ -24,6 +25,8 @@ h1,p{
 width: 400px;
 background-color: black;
 height: 100px;
+float: left;
+margin:20px ;
 }
 
 .info{
