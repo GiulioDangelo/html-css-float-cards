@@ -28,11 +28,6 @@ background-color: black;
 box-shadow: 0 0 10px 1px rgb(0, 0, 0);
 }
 
-.info{
-    padding: 15px;
-    float: right;
-}
-
 .name{
     font-weight: 800;
 }
@@ -43,12 +38,12 @@ a{
 }
 
 img{
-    height: 100px;
+    height: 100%;
     float: left;
 }
 
 .col{
-    padding: 20px;
     width:calc(100% / 3);
     float: left;
+    padding: 10px;
 }
