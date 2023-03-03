@@ -27,6 +27,12 @@ font-weight: 500;
 font-size: 18px;
 }
 
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
 .name{
     font-weight: 700;
 }
@@ -62,4 +68,9 @@ img{
     padding-left:140px ; 
     padding-top: 15px;
     font-size: 17px;
+}
+
+
+.lorem{
+    background-color: #E53170;
 }
